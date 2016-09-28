@@ -10,6 +10,10 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'dashboard'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
 ```
 
 And then execute:
