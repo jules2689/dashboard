@@ -41,6 +41,7 @@ end
 - Include `//= require tether` and `//= require bootstrap` in your `application.js`
 - Include `@import "bootstrap";` in your `application.scss`
 
+#### This gem uses Font Awesome for rendering icons in the nav
 #### This gem uses SASS for rendering some component CSS
 
 ## How to Use
