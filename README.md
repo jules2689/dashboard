@@ -1,6 +1,24 @@
 # Dashboard
 Dashboard Components in a Gem
 
+## How to Use
+
+Take a look at the [wiki](https://github.com/jules2689/dashboard/wiki)
+
+## Installation
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'dashboard'
+```
+
+And then execute:
+```bash
+$ bundle
+```
+Add this `*= require dashboard` to your `application.scss`, and `//= require dashboard` to your `application.js`
+
+
 # Overview
 This gem is a collection of view components and helpers to help you make a dashboard faster.
 Things this provides:
@@ -43,27 +61,6 @@ end
 
 #### This gem uses Font Awesome for rendering icons in the nav
 #### This gem uses SASS for rendering some component CSS
-
-## How to Use
-
-Take a look at the [wiki](https://github.com/jules2689/dashboard/wiki)
-
-## Installation
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'dashboard'
-```
-
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install dashboard
-```
 
 ## Contributing
 Contribution directions go here.
