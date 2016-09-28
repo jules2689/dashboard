@@ -1,20 +1,18 @@
-<div class="col-xs">
-  <div class="card <%= defined?(card_class) ? card_class : 'text-xs-center' %>">
-    <div class="card-header">
-      <%= header %>
-      <% if defined?(sub_header) %>
-        <p class="text-muted"><%= sub_header %></p>
-      <% end %>
-    </div>
-    <%= additional_header if defined?(additional_header) %>
-    <% if yield.present? %>
-      <div class="card-block">
-        <%= yield %>
-      </div>
+<div class="card <%= defined?(card_class) ? card_class : 'text-xs-center' %>">
+  <div class="card-header">
+    <%= header %>
+    <% if defined?(sub_header) %>
+      <p class="text-muted"><%= sub_header %></p>
     <% end %>
-    <%= additional_footer if defined?(additional_footer) %>
-    <div class="card-footer text-muted">
-      <%= footer %>
+  </div>
+  <%= additional_header if defined?(additional_header) %>
+  <% if yield.present? %>
+    <div class="card-block">
+      <%= yield %>
     </div>
+  <% end %>
+  <%= additional_footer if defined?(additional_footer) %>
+  <div class="card-footer text-muted">
+    <%= footer %>
   </div>
 </div>
