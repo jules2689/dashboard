@@ -4,19 +4,31 @@ Dashboard Components in a Gem
 # Overview
 This gem is a collection of view components and helpers to help you make a dashboard faster.
 Things this provides:
-- Dashboard Layout, it will provide a sidebar, top nav, and the sidebar converts to a thumb-bar on mobile
+
+**Dashboard Layout**
+
+It will provide a sidebar, top nav, and the sidebar converts to a thumb-bar on mobile
  
- | Desktop Layout | Mobile Layout |
- |---|---|
- | ![Desktop Layout](https://cloud.githubusercontent.com/assets/3074765/18899416/d9dd7d0c-8506-11e6-8f7e-35515337f09b.png) | ![Mobile Layout](https://cloud.githubusercontent.com/assets/3074765/18899434/f201e4ae-8506-11e6-8629-4cf8752d0e89.png) | 
-- Cards rendering, seen in the images above
-- Toasts/Notifications
+| Desktop Layout | Mobile Layout |
+|---|---|
+| ![Desktop Layout](https://cloud.githubusercontent.com/assets/3074765/18899416/d9dd7d0c-8506-11e6-8f7e-35515337f09b.png) | ![Mobile Layout](https://cloud.githubusercontent.com/assets/3074765/18899434/f201e4ae-8506-11e6-8629-4cf8752d0e89.png) | 
+
+**Cards rendering**
+
+Text Cards can be rendered:
+
+![Text Card](https://cloud.githubusercontent.com/assets/3074765/18899558/d5e4ce34-8507-11e6-8bc1-1937b47d5f1c.png)
+
+**Toasts/Notifications**
+
+Notification messages can be provided. It can handle many messages and errors in a queue.
 
 | Message | Error |
 |---|---|
 | ![Notification Message](https://cloud.githubusercontent.com/assets/3074765/18899490/4a3389de-8507-11e6-9495-2428ca7c8150.png) | ![Error Message](https://cloud.githubusercontent.com/assets/3074765/18899508/667729f2-8507-11e6-9fdf-94b3aa4b3165.png)
  | 
-- Coming soon: Graphs and numbers
+
+**Coming soon: Graphs and numbers**
 
 # Dependencies
 #### Bootstrap 4 (alpha), included in the gemfile
