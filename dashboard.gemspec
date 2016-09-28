@@ -23,5 +23,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails', '~> 5.0.0', '>= 5.0.0.1'
   s.add_dependency 'bootstrap', '~> 4.0.0.alpha3'
+  s.add_dependency 'font-awesome-rails', '~> 4.6.0', '>= 4.6.0'
+  s.add_dependency 'rails-assets-tether', '>= 1.1.0'
+  s.add_dependency 'sass-rails', '~> 5.0'
   s.add_development_dependency 'sqlite3'
 end

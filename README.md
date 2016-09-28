@@ -47,7 +47,8 @@ Notification messages can be provided. It can handle many messages and errors in
  | 
 
 **Pagination**
-Using `will_paginate` gem (you need to add this to your `Gemfile` yourself), you can use the renderer `Pagination::Bootstrap4Renderer`:
+
+Using the `will_paginate` gem (you need to add this to your `Gemfile` yourself), you can use the renderer `Pagination::Bootstrap4Renderer`:
 
 ![Pagaination](https://cloud.githubusercontent.com/assets/3074765/18900065/0fd486da-850c-11e6-80af-34bf818e703d.png)
 
