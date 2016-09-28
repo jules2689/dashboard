@@ -1,5 +1,5 @@
 # Dashboard
-Dashboard Components in a Gem
+Dashboard Components in a Gem. Abstract away individual components using Boostrap 4 and let you focus on content.
 
 ## How to Use
 
@@ -16,8 +16,7 @@ And then execute:
 ```bash
 $ bundle
 ```
-Add this `*= require dashboard` to your `application.scss`, and `//= require dashboard` to your `application.js`
-
+Add `*= require dashboard` to your `application.scss`, and `//= require dashboard` to your `application.js`
 
 # Overview
 This gem is a collection of view components and helpers to help you make a dashboard faster.
@@ -53,20 +52,6 @@ Using the `will_paginate` gem (you need to add this to your `Gemfile` yourself),
 ![Pagaination](https://cloud.githubusercontent.com/assets/3074765/18900065/0fd486da-850c-11e6-80af-34bf818e703d.png)
 
 **Coming soon: Graphs and numbers**
-
-# Dependencies
-#### Bootstrap 4 (alpha), included in the gemfile
-- You may need to include:
-```
-source 'https://rails-assets.org' do
-  gem 'rails-assets-tether', '>= 1.1.0'
-end
-```
-- Include `//= require tether` and `//= require bootstrap` in your `application.js`
-- Include `@import "bootstrap";` in your `application.scss`
-
-#### This gem uses Font Awesome for rendering icons in the nav
-#### This gem uses SASS for rendering some component CSS
 
 ## Contributing
 Contribution directions go here.
