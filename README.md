@@ -11,7 +11,7 @@ It will provide a sidebar, top nav, and the sidebar converts to a thumb-bar on m
  
 | Desktop Layout | Mobile Layout |
 |---|---|
-| ![Desktop Layout](https://cloud.githubusercontent.com/assets/3074765/18899416/d9dd7d0c-8506-11e6-8f7e-35515337f09b.png) | ![Mobile Layout](https://cloud.githubusercontent.com/assets/3074765/18899434/f201e4ae-8506-11e6-8629-4cf8752d0e89.png) | 
+| ![Desktop Layout](https://cloud.githubusercontent.com/assets/3074765/18899416/d9dd7d0c-8506-11e6-8f7e-35515337f09b.png) | ![Mobile Layout](https://cloud.githubusercontent.com/assets/3074765/18899610/41c398d8-8508-11e6-844b-1a5041dadb8b.png) |
 
 **Cards rendering**
 
