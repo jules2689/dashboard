@@ -46,6 +46,11 @@ Notification messages can be provided. It can handle many messages and errors in
 | ![Notification Message](https://cloud.githubusercontent.com/assets/3074765/18899490/4a3389de-8507-11e6-9495-2428ca7c8150.png) | ![Error Message](https://cloud.githubusercontent.com/assets/3074765/18899508/667729f2-8507-11e6-9fdf-94b3aa4b3165.png)
  | 
 
+**Pagination**
+Using `will_paginate` gem (you need to add this to your `Gemfile` yourself), you can use the renderer `Pagination::Bootstrap4Renderer`:
+
+![Pagaination](https://cloud.githubusercontent.com/assets/3074765/18900065/0fd486da-850c-11e6-80af-34bf818e703d.png)
+
 **Coming soon: Graphs and numbers**
 
 # Dependencies
