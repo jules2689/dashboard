@@ -1,0 +1,14 @@
+<div id="wrapper" class="clearfix">
+  <%= render 'dashboard/sidebar', image: sidebar_image,
+                                  title: sidebar_title,
+                                  links: sidebar_links %>
+  <div id="page-content-wrapper" class="clearfix">
+    <%= render 'dashboard/navbar' %>
+    <div id="content" class="clearfix">
+      <%= render 'dashboard/toasts' %>
+      <div class="container">
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+</div>

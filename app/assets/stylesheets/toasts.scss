@@ -1,0 +1,29 @@
+#toasts { display: none; }
+#toast {
+  position: fixed;
+  width: 300px;
+  top: 15px;
+  right: 15px;
+  margin-left: -150px;
+  text-align: center;
+  opacity: 0.0;
+  z-index: 10;
+
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -kthtml-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+
+  &.active {
+    opacity: 0.95;
+
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -kthtml-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+}

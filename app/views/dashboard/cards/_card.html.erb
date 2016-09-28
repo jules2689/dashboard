@@ -1,0 +1,16 @@
+<div class="col-xs">
+  <div class="card <%= defined?(card_class) ? card_class : 'text-xs-center' %>">
+    <div class="card-header">
+      <%= header %>
+    </div>
+    <% if yield.present? %>
+      <div class="card-block">
+        <%= yield %>
+      </div>
+    <% end %>
+    <%= additional_footer if defined?(additional_footer) %>
+    <div class="card-footer text-muted">
+      <%= footer %>
+    </div>
+  </div>
+</div>
