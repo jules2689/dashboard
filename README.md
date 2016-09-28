@@ -1,8 +1,39 @@
 # Dashboard
 Dashboard Components in a Gem
 
-## Usage
-How to use my plugin.
+# Overview
+This gem is a collection of view components and helpers to help you make a dashboard faster.
+Things this provides:
+- Dashboard Layout, it will provide a sidebar, top nav, and the sidebar converts to a thumb-bar on mobile
+ 
+ | Desktop Layout | Mobile Layout |
+ |---|---|
+ | ![Desktop Layout](https://cloud.githubusercontent.com/assets/3074765/18899416/d9dd7d0c-8506-11e6-8f7e-35515337f09b.png) | ![Mobile Layout](https://cloud.githubusercontent.com/assets/3074765/18899434/f201e4ae-8506-11e6-8629-4cf8752d0e89.png) | 
+- Cards rendering, seen in the images above
+- Toasts/Notifications
+
+| Message | Error |
+|---|---|
+| ![Notification Message](https://cloud.githubusercontent.com/assets/3074765/18899490/4a3389de-8507-11e6-9495-2428ca7c8150.png) | ![Error Message](https://cloud.githubusercontent.com/assets/3074765/18899508/667729f2-8507-11e6-9fdf-94b3aa4b3165.png)
+ | 
+- Coming soon: Graphs and numbers
+
+# Dependencies
+#### Bootstrap 4 (alpha), included in the gemfile
+- You may need to include:
+```
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
+```
+- Include `//= require tether` and `//= require bootstrap` in your `application.js`
+- Include `@import "bootstrap";` in your `application.scss`
+
+#### This gem uses SASS for rendering some component CSS
+
+## How to Use
+
+Take a look at the [wiki](https://github.com/jules2689/dashboard/wiki)
 
 ## Installation
 Add this line to your application's Gemfile:
