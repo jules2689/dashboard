@@ -1,0 +1,8 @@
+<div class="card <%= options_to_class(local_assigns) %>">
+  <div class="card-block">
+      <blockquote class="card-blockquote">
+        <% if defined?(header) %><h4 class="card-title"><%= header %></h4><% end %>
+        <%= chart chart_type, data, local_assigns %>
+      </blockquote>
+  </div>
+</div>

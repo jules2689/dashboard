@@ -25,6 +25,7 @@ module Dashboard
 
     config.to_prepare do
       ApplicationController.helper(CardHelper)
+      ApplicationController.helper(Chartkick::Helper)
     end
   end
 end

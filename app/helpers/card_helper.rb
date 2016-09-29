@@ -8,4 +8,24 @@ module CardHelper #:nodoc:
     classes << "card-#{type}" unless opts[:outline]
     classes.join(' ')
   end
+
+  def chart(type, data, options = {})
+    type = "#{type}Chart".camelize unless type.downcase.end_with?('chart')
+    options.merge!(inverse_options) if options[:type] != 'default' && !options[:outline]
+    chartkick_chart(type, data, options)
+  end
+
+  private
+
+  def inverse_options
+    {
+      library: {
+        scales: {
+          yAxes: [{ ticks: { fontColor: 'white' } }],
+          xAxes: [{ ticks: { fontColor: 'white' } }]
+        }
+      },
+      colors: ['white']
+    }
+  end
 end
