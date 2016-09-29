@@ -1,7 +1,5 @@
 module Dashboard
   class Engine < Rails::Engine # :nodoc:
-    isolate_namespace Dashboard
-
     config.assets.paths << File.join(
       Gem.loaded_specs['bootstrap'].full_gem_path,
       'assets',
@@ -24,5 +22,9 @@ module Dashboard
       'assets',
       'fonts'
     )
+
+    config.to_prepare do
+      ApplicationController.helper(CardHelper)
+    end
   end
 end

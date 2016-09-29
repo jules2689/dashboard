@@ -1,4 +1,4 @@
-<div class="card <%= defined?(card_class) ? card_class : 'text-xs-center' %>">
+<div class="card <%= options_to_class(local_assigns) %>">
   <div class="card-header">
     <%= header %>
     <% if defined?(sub_header) %>
